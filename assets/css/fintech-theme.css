@@ -1,5 +1,5 @@
 /* =========================================
-   ALTOROS TRUST — FINTECH DARK THEME
+   DEALERWEB — FINTECH DARK THEME
    =========================================
    Premium dark navy / glassmorphism design
    Overrides the Forexy template palette
@@ -520,11 +520,10 @@ p, .text, li {
 }
 /* Company logo inside rotating ring */
 .text-circle-box .center-icon .circle-logo {
-  width: 48px;
-  height: 48px;
+  width: 56px;
+  height: auto;
   object-fit: contain;
   display: block;
-  filter: brightness(0) invert(1);
 }
 
 /* Banner nav arrows */
