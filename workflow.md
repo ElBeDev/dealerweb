@@ -21,7 +21,7 @@ Static landing page for **Dealerweb LLC**, a brokerage firm. The site was built 
 ## Done
 
 - [x] Replaced all branding with Dealerweb LLC (index, privacy policy, terms of service).
-- [x] New text-based logo assets (`assets/images/logo/logoDW*.svg`, "DW" monogram).
+- [x] Logo assets from the official Dealerweb logo (`assets/images/logo/logoDW*.png`, favicons included).
 - [x] Removed content that does not apply to the new business: crypto section, Gold membership, fabricated stats, testimonials, news, partner logos, app section, newsletter.
 - [x] Contact section and footer use the Jersey City address; map embed updated.
 - [x] Legal pages rewritten for Dealerweb (governing law set to New Jersey — confirm with counsel).
@@ -30,10 +30,9 @@ Static landing page for **Dealerweb LLC**, a brokerage firm. The site was built 
 
 ## Design
 
-- Layout ported from the Ascone Finance reference (https://ascone-finance.webflow.io/): top banner, navbar, hero with 2x2 ornament grid, marquee, feature cards, product cards, numbers band, FAQ, CTA, footer.
-- Styles live in `assets/css/dealerweb.css` (palette in the `:root` variables). Pages no longer load the old template CSS/JS (`style.css`, `fintech-theme.css`, `bootstrap`, jQuery, etc.); those files are unused.
-- Fonts: Inter Tight + Instrument Serif (Google Fonts) stand in for the reference's licensed Neue Montreal / Tiempos.
-- Light-background logo: `assets/images/logo/logoDWHorizontal.png`.
+- Original dark fintech template (`assets/css/style.css` + `assets/css/fintech-theme.css`).
+- A redesign based on the Ascone Finance reference was tried and reverted (2026-11-19); it lives only in git history (commit `9abd21d`).
+- Dark-background logo: `assets/images/logo/logoDWHorizontalWhite.png`; hero badge: `logoDWMark.png`.
 
 ---
 
